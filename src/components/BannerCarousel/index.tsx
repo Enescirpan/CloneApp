@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { FlatList, Image, Dimensions} from 'react-native'
 
-const {width, height} = Dimensions.get('window')
+const {width, height} = Dimensions.get('window') //Responsive
 function index() {
        const [banners, SetBanners] = useState<String[]>([ //banners değişkeni tanımlama ('SetBanners' fonksiyonu ile 'Banners' değişkenine yeni bir değer atanabilir. )
       "https://cdn.getir.com/misc/611e55d33ea65bef40f9ba05_banner_tr_1629378026496.jpeg",

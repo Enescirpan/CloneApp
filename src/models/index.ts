@@ -4,3 +4,15 @@ export declare class Category{ //export declare ifadesi sınıfın dışa aktar�
     readonly src:string;
     readonly subCategories: string[]
 }
+export declare class Product{
+    readonly id:string;
+    readonly image:string;
+    readonly images:string[];
+    readonly name:string;
+    readonly miktar:string;
+    readonly fiyat:number;
+    readonly fiyatIndırımlı?: number;
+   
+
+
+}

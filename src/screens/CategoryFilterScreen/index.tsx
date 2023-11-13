@@ -2,7 +2,8 @@ import React,{useState} from 'react'
 import { ScrollView,Text } from'react-native' 
 import CategoryFiltering from '../../components/CategoryFiltering'
 import TypeFiltering from '../../components/TypeFiltering'
-import ProductItem from '../../components/ProductItem'
+import ProductContainer from '../../components/ProductsContainer'
+
 
 function  index() {
  
@@ -10,7 +11,7 @@ function  index() {
     <ScrollView>
         <CategoryFiltering />
         <TypeFiltering />
-        <ProductItem />
+        <ProductContainer />
         
 
        
